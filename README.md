@@ -42,9 +42,13 @@ This Calculator allows you to perform basic arithmetic operations such as additi
 
 ## What I learned :
 
-- Improved my skills in building interactive web applications with JavaScript.
-- Enhanced my understanding of CSS for styling user interfaces.
-- Gained experience in structuring HTML for a functional web app.
+This was one of my first projects made with HTML, CSS, and JavaScript, so everything was quite new to me! I feel like I learned a lot while creating this calculator, from improving my CSS skills to ensuring that the design was responsive and attractive.
+
+Working on this project gave me some headaches at first, especially when it came to validating user inputs. But in the end, I learned to handle the validation to ensure that only valid numbers and operations were accepted, which turned out to be a significant improvement.
+
+It was also a rewarding experience to add interactivity to the page, making the calculator respond to clicks and update the user interface. This whole process has been an incredible journey, and I hope to learn much more in the future.
+
+
 
 <p>&nbsp;</p>
 
