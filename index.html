@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator Design | IgnaciioDev</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main id="main" class="main"> 
+        
+        <div class="calc">
+            <div class="calc__screen">
+                <p id="result" class="calc__result">0</p>
+                <p id="calculation" class="calc__calculation"></p>
+            </div>
+            <div class="calc__container">
+                <button id="clear" class="calc__button">AC</button>
+                <button class="calc__button operation" value="%">%</button>
+                <button class="calc__button operation" value="/">/</button>
+
+                <button class="calc__button number" value="7" >7</button>
+                <button class="calc__button number" value="8" >8</button>
+                <button class="calc__button number" value="9" >9</button>
+                <button class="calc__button operation" value="x">x</button>
+
+                <button class="calc__button number" value="4" >4</button>
+                <button class="calc__button number" value="5" >5</button>
+                <button class="calc__button number" value="6" >6</button>
+                <button class="calc__button operation" value="-">-</button>
+
+                <button class="calc__button number" value="1" >1</button>
+                <button class="calc__button number" value="2" >2</button>
+                <button class="calc__button number" value="3" >3</button>
+                <button class="calc__button operation" value="+">+</button>
+
+                <button class="calc__button number" value="0" >0</button>
+                <button id="point" class="calc__button" value="." >.</button>
+                <button id="equal" class="calc__button">=</button>
+            </div>
+        </div>
+
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
